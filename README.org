@@ -2,7 +2,7 @@
 
 When using existing statically or dynamically allocated buffers, it is often
 desirable to interact with them as a "Heap": a tree-like data structure
-overlaid on the data arary which requires no additional overhead:
+overlaid on the data array which requires no additional overhead:
 
     https://en.wikipedia.org/wiki/Heap_(data_structure)
 
