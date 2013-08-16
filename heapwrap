@@ -1,0 +1,6 @@
+#ifndef _INCLUDE_HEAP
+#define _INCLUDE_HEAP 1
+
+#  include <heapwrap.H>
+
+#endif // _INCLUDE_HEAP
