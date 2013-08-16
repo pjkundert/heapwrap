@@ -10,17 +10,21 @@ There are existing C++ functions for implementing a Heap in the C++ <algorithm>
 header (eg. std::make_heap), but these don't result in a containerized
 interface to the Heap data.
 
-This 
 
-
-* heap::max<T>
+** heap::max<T>
 
 Implement's a max-heap: the Parent node's value is always greater than either
 child; the root node (element 0) will always be the greatest value in the heap.
 After heap::max<T>.sort(), the resultant array (no longer a Heap) will be sorted
 from greatest to least (descending).  Uses std::less<T>.
 
-* heap::min<T>
+** heap::min<T>
 
 The root node contains the least value in the Heap (according to
 std::greater<T>).  Calling heap::min<T>.sort() results in an ascending sort.
+
+** TODO
+
+*** iterators
+
+Inherit from underlying raw data buffer.
